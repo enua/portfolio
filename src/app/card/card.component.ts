@@ -6,13 +6,6 @@ import { Card } from '../../models/card';
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.sass']
 })
-export class CardComponent implements OnInit {
+export class CardComponent {
   @Input() card: Card;
-
-  constructor() { }
-
-  ngOnInit(): void {
-    console.log(this.card)
-  }
-
 }

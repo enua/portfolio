@@ -2,14 +2,13 @@
   <mat-card-header>
     <mat-card-title>{{ card.title }}</mat-card-title>
   </mat-card-header>
-  <img mat-card-image [src]="card.image" alt="">
+  <img mat-card-image [src]="card.image" [alt]="card.title">
   <mat-card-content>
     <p>
       {{ card.content }}
     </p>
   </mat-card-content>
   <mat-card-actions>
-    <a mat-button href="https://strin.es/angular-rover/" type="button">Show {{card.link}}</a>
-    <button mat-button>Share</button>
+    <a mat-button [href]="card.link" type="button" target="_blank">Live!</a>
   </mat-card-actions>
 </mat-card>
