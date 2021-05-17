@@ -40,6 +40,7 @@ import {MatTableModule} from '@angular/material/table';
 import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { CardComponent } from './card/card.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -83,6 +84,7 @@ import { CardComponent } from './card/card.component';
     MatTableModule,
     MatSortModule,
     MatPaginatorModule,
+    FlexLayoutModule,
     BrowserAnimationsModule
   ],
   providers: [],

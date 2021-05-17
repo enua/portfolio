@@ -1,8 +1,10 @@
 
-<mat-grid-list cols="2" rowHeight="2:2.5">
-  <mat-grid-tile
+<div class="content" fxLayout="row" fxLayout.xs="column" fxFlexFill>
+  <div
     *ngFor="let card of cards"
+    fxFlex="50"
+    class="content__card"
   >
     <app-card [card]="card"></app-card>
-  </mat-grid-tile>
-</mat-grid-list>
+  </div>
+</div>
