@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Card } from '../../models/card';
-import { CardsColsSize, Tile } from '../../models/Tile';
+import { Tile, CardsColsSize } from '../../models/Tile';
 
 @Component({
-  selector: 'app-main',
-  templateUrl: './main.component.html',
-  styleUrls: ['./main.component.sass']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.sass']
 })
-export class MainComponent implements OnInit {
+export class HomeComponent implements OnInit {
   grid: Tile[] = [];
   cards: Card[] = [
   {
@@ -46,5 +46,4 @@ export class MainComponent implements OnInit {
       },
     ]
   }
-
 }
