@@ -1,0 +1,10 @@
+
+<div class="content" fxLayout="row" fxLayout.xs="column" fxFlexFill>
+  <div
+    *ngFor="let card of cards"
+    fxFlex="50"
+    class="content__card"
+  >
+    <app-card [card]="card"></app-card>
+  </div>
+</div>
