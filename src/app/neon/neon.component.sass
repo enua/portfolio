@@ -1,0 +1,27 @@
+$clr-neon: hsl(317, 100%, 54%)
+$clr-bg: hsl(232, 21%, 16%)
+
+.btn__container
+.btn__container::before
+.btn__container::after
+  box-sizing: border-box
+
+.container
+  min-height: 20em
+  display: grid
+  place-items: center
+  background: $clr-bg
+
+.neon-button
+  font: 400 1em Roboto, "Helvetica Neue", sans-serif
+  font-size: 4rem
+
+  display: inline-block
+  cursor: pointer
+  color: $clr-neon
+  text-decoration: none
+  border: 4px solid currentColor
+  padding: 0.25em 1em
+  border-radius: 0.2em
+
+  text-shadow: 0 0 0.125em hsl(1, 0%, 100% / .5), 0 0 0.125em currentColor

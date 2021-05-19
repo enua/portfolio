@@ -42,6 +42,7 @@ import { CardComponent } from './card/card.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HomeComponent } from './home/home.component';
 import { CurriculumComponent } from './curriculum/curriculum.component';
+import { NeonComponent } from './neon/neon.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { CurriculumComponent } from './curriculum/curriculum.component';
     CardComponent,
     HomeComponent,
     CurriculumComponent,
+    NeonComponent,
   ],
   imports: [
     BrowserModule,
