@@ -25,6 +25,14 @@ export class HomeComponent implements OnInit {
     content: 'Whole gnommes town information, works, age...',
     link: 'https://gnomme-town.strin.es/',
     social: '/',
+  },
+  {
+    width: '300px',
+    title: 'React Learning',
+    image: '/assets/images/react_login_01.PNG',
+    content: 'Async data, OAUTH-2 login, some cruds, ...',
+    link: 'https://react.strin.es/',
+    social: '/',
   }
 ]
 
